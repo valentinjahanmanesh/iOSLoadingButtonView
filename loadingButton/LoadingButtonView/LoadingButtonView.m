@@ -51,20 +51,6 @@
 }
 
 
-/**
- check if loading is currently showing? else start loading with proper style
- */
--(void) addLoadingView{
-    if([self loadingIsShowing]){
-        [self endAndDeleteLoading];
-        return;
-    }
-    if (self.setAnimationType != 0 ){
-        self.animationType = self.setAnimationType;
-        [self startLoading:self.setAnimationType];
-    }
-    
-}
 
 
 -(instancetype)initWithCoder:(NSCoder *)aDecoder{
@@ -93,7 +79,10 @@
  @param loadingType the loading style
  */
 - (void)startLoading:(LoadingType)loadingType{
-    
+    if([self loadingIsShowing]){
+        [self endAndDeleteLoading];
+        return;
+    }
     switch (loadingType) {
         case TOP_LINE:
             [self createTopLineLoading];

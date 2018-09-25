@@ -14,6 +14,8 @@
 @property (weak, nonatomic) IBOutlet LoadingButtonView *uberLikeView;
 @property (weak, nonatomic) IBOutlet LoadingButtonView *fillingView;
 @property (weak, nonatomic) IBOutlet LoadingButtonView *indicatorViewLike;
+@property (readonly,copy) NSTimer *tempTimer1;
+@property (readonly,copy) NSTimer *tempTimer2;
 @property (readonly,copy) NSTimer *tempTimer;
 @end
 
@@ -41,11 +43,31 @@
     [button startLoading:button.setAnimationType];
     __block CGFloat percent = 0;
     switch (button.animationType) {
-        case BACKGROUND_HIGHLIGHTER:
-        case CIRCLE_AND_TICK :
+        case BACKGROUND_HIGHLIGHTER:{
+            _tempTimer1 = nil;
+            [_tempTimer1 invalidate];
+            _tempTimer1 = [NSTimer scheduledTimerWithTimeInterval:1 repeats:true block:^(NSTimer * _Nonnull timer) {
+                percent += 10;
+                [button fillTheButtonWith:percent];
+                [button fillTheCircleStrokeLoadingWith:percent];
+            }];
+            break;
+        }
+        case CIRCLE_AND_TICK :{
+            _tempTimer2 = nil;
+            [_tempTimer2 invalidate];
+            _tempTimer2 = [NSTimer scheduledTimerWithTimeInterval:1 repeats:true block:^(NSTimer * _Nonnull timer) {
+                percent += 10;
+                [button fillTheButtonWith:percent];
+                [button fillTheCircleStrokeLoadingWith:percent];
+            }];
+            break;
+        }
         case ALL:
             {
                 NSLog(@"");
+                _tempTimer = nil;
+                [_tempTimer invalidate];
             _tempTimer = [NSTimer scheduledTimerWithTimeInterval:1 repeats:true block:^(NSTimer * _Nonnull timer) {
                 percent += 10;
                 [button fillTheButtonWith:percent];
