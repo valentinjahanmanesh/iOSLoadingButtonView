@@ -13,7 +13,7 @@
 @property (assign,readonly) BOOL isloadingShowing;
 @property (readonly) CAShapeLayer *filledLoadingLayer;
 @property CAShapeLayer *circleStrokeLoadingLayer;
-@property (readonly,copy) NSTimer *tempTimer;
+//@property (readonly,copy) NSTimer *tempTimer;
 @property (readonly) UIButton *cacheButtonBeforeAnimation;
 @end
 
@@ -109,11 +109,11 @@
     //indicates that loading is showing
     __block CGFloat percent = 0;
     _isloadingShowing = true;
-    _tempTimer = [NSTimer scheduledTimerWithTimeInterval:1 repeats:true block:^(NSTimer * _Nonnull timer) {
-        percent += 10;
-        [self fillTheCircleStrokeLoadingWith:percent];
-        [self fillTheButtonWith:percent];
-    }];
+//    _tempTimer = [NSTimer scheduledTimerWithTimeInterval:1 repeats:true block:^(NSTimer * _Nonnull timer) {
+//        percent += 10;
+//        [self fillTheCircleStrokeLoadingWith:percent];
+//        [self fillTheButtonWith:percent];
+//    }];
 }
 
 /**
@@ -242,7 +242,7 @@
     _isloadingShowing = false;
     _percentFilled = 0;
     
-    [self.tempTimer invalidate];
+    //[self.tempTimer invalidate];
     
     [self removeIndicatorView];
     [self removeCircleLoadingLayer];
@@ -376,7 +376,7 @@
 -(void) fillTheCircleStrokeLoadingWith:(CGFloat)percent{
     
     if (percent >100){
-        [self.tempTimer invalidate];
+        //[self.tempTimer invalidate];
         return;
     }
     if(!_isloadingShowing){

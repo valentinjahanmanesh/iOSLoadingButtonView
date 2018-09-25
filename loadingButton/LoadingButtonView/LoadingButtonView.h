@@ -8,7 +8,6 @@
 @import UIKit;
 
 typedef enum : NSUInteger {
-    
     NONE = 0,
     TOP_LINE = 1,
     INDICATOR = 2,
@@ -26,8 +25,18 @@ IB_DESIGNABLE
 @property (copy) IBInspectable UIColor *setFilledBackgroundColor;
 @property (assign) IBInspectable BOOL *setIndicatorViewDarkStyle;
 @property (assign) LoadingType animationType;
+
+//start loading
 -(void) startLoading:(LoadingType) loadingType;
+
+//stop loading
 -(void) endAndDeleteLoading;
+
+//update filling background - percent like 1,20...100
+-(void) fillTheButtonWith:(CGFloat)percent;
+
+//update circle mode stroke - percent like 1,20...100
+-(void) fillTheCircleStrokeLoadingWith:(CGFloat)percent;
 @end
 
 
