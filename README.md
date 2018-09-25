@@ -1,6 +1,22 @@
 # iOSLoadingButtonView
 this is a small library about showing loading and indicator in UIButton
 
+# TOP_LINE
+![TOP_LINE](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__uberLike.gif)
+
+# INDICATOR,
+![INDICATOR](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__indicatorViewEx.gif)
+
+# BACKGROUND_HIGHLIGHTER
+![BACKGROUND_HIGHLIGHTER](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__fillngEx.gif)
+
+# CIRCLE_AND_TICK
+![CIRCLE_AND_TICK](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__circleEx.gif)
+
+# ALL
+![ALL](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__allInOneEx.gif)
+
+
 
 # Configs
 ```swift
@@ -28,22 +44,6 @@ this is a small library about showing loading and indicator in UIButton
   BOOL setIndicatorViewDarkStyle;
   
 ```
-
-# TOP_LINE
-![TOP_LINE](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__uberLike.gif)
-
-# INDICATOR,
-![INDICATOR](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__indicatorViewEx.gif)
-
-# BACKGROUND_HIGHLIGHTER
-![BACKGROUND_HIGHLIGHTER](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__fillngEx.gif)
-
-# CIRCLE_AND_TICK
-![CIRCLE_AND_TICK](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__circleEx.gif)
-
-# ALL
-![ALL](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__allInOneEx.gif)
-
 
 # start and stop loading, update percent
 ```objective-c
