@@ -61,6 +61,7 @@
 		8E8535E92158B4A600B24F25 /* loadingButton */ = {
 			isa = PBXGroup;
 			children = (
+				8E853604215A5E2400B24F25 /* examples */,
 				8E8536002158B50200B24F25 /* LoadingButtonView */,
 				8E8535EA2158B4A600B24F25 /* AppDelegate.h */,
 				8E8535EB2158B4A600B24F25 /* AppDelegate.m */,
@@ -82,6 +83,13 @@
 				8E8536022158B51800B24F25 /* LoadingButtonView.m */,
 			);
 			path = LoadingButtonView;
+			sourceTree = "<group>";
+		};
+		8E853604215A5E2400B24F25 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
