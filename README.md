@@ -2,7 +2,7 @@
 this is a small library about showing loading and indicator in UIButton
 
 
-# Config
+# Configs
 ```swift
   //you can set these in interface builder or code
    
