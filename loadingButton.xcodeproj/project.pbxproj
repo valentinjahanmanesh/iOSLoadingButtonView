@@ -13,6 +13,7 @@
 		8E8535F42158B4A700B24F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8535F32158B4A700B24F25 /* Assets.xcassets */; };
 		8E8535F72158B4A700B24F25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8535F52158B4A700B24F25 /* LaunchScreen.storyboard */; };
 		8E8535FA2158B4A700B24F25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8535F92158B4A700B24F25 /* main.m */; };
+		8E8536032158B51800B24F25 /* LoadingButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8536022158B51800B24F25 /* LoadingButtonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8E8535F62158B4A700B24F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E8535F82158B4A700B24F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E8535F92158B4A700B24F25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E8536012158B51800B24F25 /* LoadingButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingButtonView.h; sourceTree = "<group>"; };
+		8E8536022158B51800B24F25 /* LoadingButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingButtonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		8E8535E92158B4A600B24F25 /* loadingButton */ = {
 			isa = PBXGroup;
 			children = (
+				8E8536002158B50200B24F25 /* LoadingButtonView */,
 				8E8535EA2158B4A600B24F25 /* AppDelegate.h */,
 				8E8535EB2158B4A600B24F25 /* AppDelegate.m */,
 				8E8535ED2158B4A600B24F25 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				8E8535F92158B4A700B24F25 /* main.m */,
 			);
 			path = loadingButton;
+			sourceTree = "<group>";
+		};
+		8E8536002158B50200B24F25 /* LoadingButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				8E8536012158B51800B24F25 /* LoadingButtonView.h */,
+				8E8536022158B51800B24F25 /* LoadingButtonView.m */,
+			);
+			path = LoadingButtonView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 				8E8535EF2158B4A600B24F25 /* ViewController.m in Sources */,
 				8E8535FA2158B4A700B24F25 /* main.m in Sources */,
 				8E8535EC2158B4A600B24F25 /* AppDelegate.m in Sources */,
+				8E8536032158B51800B24F25 /* LoadingButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +300,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGFPA9QY4R;
 				INFOPLIST_FILE = loadingButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGFPA9QY4R;
 				INFOPLIST_FILE = loadingButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
