@@ -6,9 +6,9 @@
 //  Copyright © 2018 ios 4. All rights reserved.
 //
 
-#import "LoadingButtonView.h"
+#import "LBVLoadingButtonView.h"
 
-@interface LoadingButtonView()
+@interface LBVLoadingButtonView()
 @property (assign,readonly) CGFloat percentFilled;
 @property (assign,readonly) BOOL isloadingShowing;
 @property (readonly) CAShapeLayer *filledLoadingLayer;
@@ -17,7 +17,7 @@
 @property (readonly) UIButton *cacheButtonBeforeAnimation;
 @end
 
-@implementation LoadingButtonView
+@implementation LBVLoadingButtonView
 
 
 - (instancetype)init
@@ -333,7 +333,7 @@
         return;
     }
     [self.circleStrokeLoadingLayer removeAllAnimations];
-    LoadingButtonView __weak *weakSelf = self;
+    LBVLoadingButtonView __weak *weakSelf = self;
     [UIView animateWithDuration:0.5 animations:^{
         weakSelf.bounds = CGRectMake(0, 0, weakSelf.cacheButtonBeforeAnimation.frame.size.width,weakSelf.cacheButtonBeforeAnimation.frame.size.height);
         weakSelf.layer.cornerRadius = weakSelf.cacheButtonBeforeAnimation.layer.cornerRadius;

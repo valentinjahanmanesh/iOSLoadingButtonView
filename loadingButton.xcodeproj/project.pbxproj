@@ -13,7 +13,7 @@
 		8E8535F42158B4A700B24F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8535F32158B4A700B24F25 /* Assets.xcassets */; };
 		8E8535F72158B4A700B24F25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8535F52158B4A700B24F25 /* LaunchScreen.storyboard */; };
 		8E8535FA2158B4A700B24F25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8535F92158B4A700B24F25 /* main.m */; };
-		8E8536032158B51800B24F25 /* LoadingButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8536022158B51800B24F25 /* LoadingButtonView.m */; };
+		8E8536032158B51800B24F25 /* LBVLoadingButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8536022158B51800B24F25 /* LBVLoadingButtonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		8E8535F62158B4A700B24F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E8535F82158B4A700B24F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E8535F92158B4A700B24F25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8E8536012158B51800B24F25 /* LoadingButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingButtonView.h; sourceTree = "<group>"; };
-		8E8536022158B51800B24F25 /* LoadingButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingButtonView.m; sourceTree = "<group>"; };
+		8E8536012158B51800B24F25 /* LBVLoadingButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBVLoadingButtonView.h; sourceTree = "<group>"; };
+		8E8536022158B51800B24F25 /* LBVLoadingButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBVLoadingButtonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				8E853604215A5E2400B24F25 /* examples */,
-				8E8536002158B50200B24F25 /* LoadingButtonView */,
+				8E8536002158B50200B24F25 /* LBVLoadingButtonView */,
 				8E8535EA2158B4A600B24F25 /* AppDelegate.h */,
 				8E8535EB2158B4A600B24F25 /* AppDelegate.m */,
 				8E8535ED2158B4A600B24F25 /* ViewController.h */,
@@ -76,13 +76,13 @@
 			path = loadingButton;
 			sourceTree = "<group>";
 		};
-		8E8536002158B50200B24F25 /* LoadingButtonView */ = {
+		8E8536002158B50200B24F25 /* LBVLoadingButtonView */ = {
 			isa = PBXGroup;
 			children = (
-				8E8536012158B51800B24F25 /* LoadingButtonView.h */,
-				8E8536022158B51800B24F25 /* LoadingButtonView.m */,
+				8E8536012158B51800B24F25 /* LBVLoadingButtonView.h */,
+				8E8536022158B51800B24F25 /* LBVLoadingButtonView.m */,
 			);
-			path = LoadingButtonView;
+			path = LBVLoadingButtonView;
 			sourceTree = "<group>";
 		};
 		8E853604215A5E2400B24F25 /* examples */ = {
@@ -165,7 +165,7 @@
 				8E8535EF2158B4A600B24F25 /* ViewController.m in Sources */,
 				8E8535FA2158B4A700B24F25 /* main.m in Sources */,
 				8E8535EC2158B4A600B24F25 /* AppDelegate.m in Sources */,
-				8E8536032158B51800B24F25 /* LoadingButtonView.m in Sources */,
+				8E8536032158B51800B24F25 /* LBVLoadingButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

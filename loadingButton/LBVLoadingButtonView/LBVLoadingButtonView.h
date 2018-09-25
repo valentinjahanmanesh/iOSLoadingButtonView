@@ -17,7 +17,7 @@ typedef enum : NSUInteger {
 } LoadingType; 
 
 IB_DESIGNABLE
-@interface LoadingButtonView : UIButton
+@interface LBVLoadingButtonView : UIButton
 
 //these are used via interfacebuilder (you can set these in code too)
 @property (assign) IBInspectable int setAnimationType;

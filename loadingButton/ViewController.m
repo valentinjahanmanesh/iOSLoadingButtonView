@@ -9,11 +9,11 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet LoadingButtonView *circleView;
-@property (weak, nonatomic) IBOutlet LoadingButtonView *allInOneview;
-@property (weak, nonatomic) IBOutlet LoadingButtonView *uberLikeView;
-@property (weak, nonatomic) IBOutlet LoadingButtonView *fillingView;
-@property (weak, nonatomic) IBOutlet LoadingButtonView *indicatorViewLike;
+@property (weak, nonatomic) IBOutlet LBVLoadingButtonView *circleView;
+@property (weak, nonatomic) IBOutlet LBVLoadingButtonView *allInOneview;
+@property (weak, nonatomic) IBOutlet LBVLoadingButtonView *uberLikeView;
+@property (weak, nonatomic) IBOutlet LBVLoadingButtonView *fillingView;
+@property (weak, nonatomic) IBOutlet LBVLoadingButtonView *indicatorViewLike;
 @property (readonly,copy) NSTimer *tempTimer1;
 @property (readonly,copy) NSTimer *tempTimer2;
 @property (readonly,copy) NSTimer *tempTimer;
@@ -36,7 +36,7 @@
     [self.indicatorViewLike addTarget:self action:@selector(animteView:) forControlEvents:UIControlEventTouchUpInside];
 }
 - (IBAction)animteView:(id)sender {
-    LoadingButtonView *button = sender;
+    LBVLoadingButtonView *button = sender;
     if(!button){
         return;
     }

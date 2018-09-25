@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LoadingButtonView/LoadingButtonView.h"
+#import "LBVLoadingButtonView/LBVLoadingButtonView.h"
 @interface ViewController : UIViewController
 
 
