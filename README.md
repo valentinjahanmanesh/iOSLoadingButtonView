@@ -46,7 +46,7 @@ this is a small library about showing loading and indicator in UIButton
 
 
 #start and stop loading, update percent
-```
+```objective-c
 //start
 [button startLoading:BACKGROUND_HIGHLIGHTER];
 
