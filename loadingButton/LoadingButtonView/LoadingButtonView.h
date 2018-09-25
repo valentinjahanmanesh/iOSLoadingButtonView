@@ -26,6 +26,7 @@ IB_DESIGNABLE
 @property (assign) IBInspectable BOOL *setIndicatorViewDarkStyle;
 @property (assign) LoadingType animationType;
 
+
 //start loading
 -(void) startLoading:(LoadingType) loadingType;
 

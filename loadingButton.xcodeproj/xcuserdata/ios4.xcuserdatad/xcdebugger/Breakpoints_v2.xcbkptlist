@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.2373379"
+            timestampString = "559575212.1837831"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "153"
-            endingLineNumber = "153"
-            landmarkName = "-removeIndicatorView"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "-createTopLineLoading"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,13 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.237977"
+            timestampString = "559575212.18443"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "-createIndicatorLoading"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,13 +42,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.2382571"
+            timestampString = "559575212.184739"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "-createIndicatorLoading"
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -90,28 +90,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.238519"
+            timestampString = "559575212.18503"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.238782"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "216"
-            endingLineNumber = "216"
-            landmarkName = "-removeTopLineLayer"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-addLoadingView"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -122,11 +106,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.23904"
+            timestampString = "559575212.185329"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
+            landmarkName = "-loadingIsShowing"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
+            timestampString = "559575212.185623"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
             landmarkName = "-createIndicatorLoading"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,13 +138,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.239303"
+            timestampString = "559575212.1859159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "-createIndicatorLoading"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.239557"
+            timestampString = "559575212.186201"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
             landmarkName = "-createIndicatorView"
             landmarkType = "7">
          </BreakpointContent>
@@ -170,13 +170,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.239814"
+            timestampString = "559575212.186486"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "-createIndicatorView"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -186,13 +186,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.240068"
+            timestampString = "559575212.186933"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "-createIndicatorView"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -202,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.24032"
+            timestampString = "559575212.187238"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "261"
-            endingLineNumber = "261"
+            startingLineNumber = "283"
+            endingLineNumber = "283"
             landmarkName = "-fillTheButtonWith:"
             landmarkType = "7">
          </BreakpointContent>
@@ -218,13 +218,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.240573"
+            timestampString = "559575212.187538"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "255"
-            endingLineNumber = "255"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "277"
+            endingLineNumber = "277"
+            landmarkName = "-fillTheButtonWith:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -234,12 +234,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.240828"
+            timestampString = "559575212.187832"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "301"
-            endingLineNumber = "301"
-            landmarkName = "-removeFillingLayer"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
+            landmarkName = "-createCircleAndTick"
             landmarkType = "7">
             <Locations>
                <Location
@@ -282,11 +282,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.241083"
+            timestampString = "559575212.188133"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "318"
-            endingLineNumber = "318"
+            startingLineNumber = "340"
+            endingLineNumber = "340"
             landmarkName = "-createCircleAndTick"
             landmarkType = "7">
          </BreakpointContent>
@@ -298,11 +298,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.241339"
+            timestampString = "559575212.18843"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "383"
-            endingLineNumber = "383"
+            startingLineNumber = "405"
+            endingLineNumber = "405"
             landmarkName = "-fillTheCircleStrokeLoadingWith:"
             landmarkType = "7">
          </BreakpointContent>
@@ -314,27 +314,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.241593"
+            timestampString = "559575212.188723"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "371"
-            endingLineNumber = "371"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.241845"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "384"
-            endingLineNumber = "384"
+            startingLineNumber = "393"
+            endingLineNumber = "393"
             landmarkName = "-fillTheCircleStrokeLoadingWith:"
             landmarkType = "7">
          </BreakpointContent>
@@ -346,13 +330,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.242099"
+            timestampString = "559575212.189014"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "373"
-            endingLineNumber = "373"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "406"
+            endingLineNumber = "406"
+            landmarkName = "-fillTheCircleStrokeLoadingWith:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -362,13 +346,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.242348"
+            timestampString = "559575212.189308"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "370"
-            endingLineNumber = "370"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "395"
+            endingLineNumber = "395"
+            landmarkName = "-fillTheCircleStrokeLoadingWith:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -378,13 +362,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.242596"
+            timestampString = "559575212.189603"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "238"
-            endingLineNumber = "238"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "392"
+            endingLineNumber = "392"
+            landmarkName = "-fillTheCircleStrokeLoadingWith:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -394,13 +378,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.242851"
+            timestampString = "559575212.189888"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "372"
-            endingLineNumber = "372"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "260"
+            endingLineNumber = "260"
+            landmarkName = "-endAndDeleteLoading"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -410,11 +394,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.243245"
+            timestampString = "559575212.19017"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
+            startingLineNumber = "394"
+            endingLineNumber = "394"
+            landmarkName = "-fillTheCircleStrokeLoadingWith:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
+            timestampString = "559575212.190455"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
             landmarkName = "-startLoading:"
             landmarkType = "7">
          </BreakpointContent>
@@ -426,11 +426,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.243508"
+            timestampString = "559575212.190766"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "-startLoading:"
             landmarkType = "7">
          </BreakpointContent>
@@ -442,11 +442,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.24376"
+            timestampString = "559575212.191044"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "-addLoadingView"
             landmarkType = "7">
          </BreakpointContent>
@@ -458,11 +458,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.244012"
+            timestampString = "559575212.191327"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
             landmarkName = "-loadingIsShowing"
             landmarkType = "7">
          </BreakpointContent>
@@ -474,11 +474,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.244266"
+            timestampString = "559575212.191608"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "224"
-            endingLineNumber = "224"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
             landmarkName = "-loadingIsShowing"
             landmarkType = "7">
          </BreakpointContent>
@@ -490,13 +490,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.244517"
+            timestampString = "559575212.191887"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "236"
-            endingLineNumber = "236"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "258"
+            endingLineNumber = "258"
+            landmarkName = "-endAndDeleteLoading"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -506,11 +506,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.244763"
+            timestampString = "559575212.192158"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
             landmarkName = "-createIndicatorLoading"
             landmarkType = "7">
          </BreakpointContent>
@@ -522,13 +522,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.245005"
+            timestampString = "559575212.1924241"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "221"
-            endingLineNumber = "221"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "-loadingIsShowing"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -538,13 +538,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.2452461"
+            timestampString = "559575212.192693"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "276"
-            endingLineNumber = "276"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "298"
+            endingLineNumber = "298"
+            landmarkName = "-createFillingLoading"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -554,13 +554,173 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
-            timestampString = "559567448.245483"
+            timestampString = "559575212.192961"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "277"
-            endingLineNumber = "277"
-            landmarkName = "LoadingButtonView"
-            landmarkType = "3">
+            startingLineNumber = "299"
+            endingLineNumber = "299"
+            landmarkName = "-createFillingLoading"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loadingButton/ViewController.m"
+            timestampString = "559575212.193228"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-animteView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loadingButton/ViewController.m"
+            timestampString = "559575212.193395"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-animteView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loadingButton/ViewController.m"
+            timestampString = "559575212.193437"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-animteView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loadingButton/ViewController.m"
+            timestampString = "559575212.193477"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-animteView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loadingButton/ViewController.m"
+            timestampString = "559575212.193513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "-animteView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
+            timestampString = "559575212.19355"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "-startLoading:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
+            timestampString = "559575212.193786"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-initWithCoder:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
+            timestampString = "559575212.194011"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "-init"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loadingButton/LoadingButtonView/LoadingButtonView.m"
+            timestampString = "559575212.194237"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-layoutSubviews"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loadingButton/ViewController.m"
+            timestampString = "559575212.194461"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-animteView:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

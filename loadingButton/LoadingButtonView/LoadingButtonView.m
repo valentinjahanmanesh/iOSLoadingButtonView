@@ -13,7 +13,7 @@
 @property (assign,readonly) BOOL isloadingShowing;
 @property (readonly) CAShapeLayer *filledLoadingLayer;
 @property CAShapeLayer *circleStrokeLoadingLayer;
-//@property (readonly,copy) NSTimer *tempTimer;
+
 @property (readonly) UIButton *cacheButtonBeforeAnimation;
 @end
 
@@ -26,8 +26,19 @@
     if (self) {
         self.animationType = NONE;
         _percentFilled = 0;
+        if(self.setAnimationType!=0){
+            self.animationType = self.setAnimationType;
+        }
+        
     }
     return self;
+}
+
+- (void)layoutSubviews{
+    [super layoutSubviews];
+    if(self.setAnimationType!=0){
+        self.animationType = self.setAnimationType;
+    }
 }
 
 /**
@@ -67,7 +78,10 @@
         if (!self.setLoadingColor){
             self.setLoadingColor = [UIColor blackColor];
         }
-        [self addTarget:self action:@selector(addLoadingView) forControlEvents:UIControlEventTouchUpInside];
+        if(self.setAnimationType!=0){
+            self.animationType = self.setAnimationType;
+        }
+       
     }
     return self;
 }
@@ -79,6 +93,7 @@
  @param loadingType the loading style
  */
 - (void)startLoading:(LoadingType)loadingType{
+    
     switch (loadingType) {
         case TOP_LINE:
             [self createTopLineLoading];
@@ -293,7 +308,7 @@
     self.filledLoadingLayer.position = CGPointMake(self.frame.size.width / 2, self.frame.size.height / 2);
     self.filledLoadingLayer.accessibilityHint = @"button_filled_loading_parent";
     self.filledLoadingLayer.masksToBounds = YES;
-    self.filledLoadingLayer.cornerRadius = 10;
+    self.filledLoadingLayer.cornerRadius = self.layer.cornerRadius;
     [self.filledLoadingLayer insertSublayer:layer atIndex:0];
     [self.layer insertSublayer:self.filledLoadingLayer atIndex:0];
 }

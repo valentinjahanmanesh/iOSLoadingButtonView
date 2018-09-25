@@ -111,6 +111,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="setIndicatorViewDarkStyle" value="NO"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="animteView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fFu-D0-ndR"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -202,6 +205,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="allInOneview" destination="ALJ-qt-h53" id="DQT-cG-bNb"/>
+                        <outlet property="circleView" destination="ivo-B4-rtz" id="Z9R-V5-EFv"/>
+                        <outlet property="fillingView" destination="EiV-2c-HcJ" id="dbo-XX-qPi"/>
+                        <outlet property="indicatorViewLike" destination="Z2b-SN-XUu" id="wMm-St-Zrg"/>
+                        <outlet property="uberLikeView" destination="Lef-Au-0Ue" id="XMF-4b-50R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
