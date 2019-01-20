@@ -84,5 +84,5 @@ also you can use it as a class for your buttons in interface builder, and change
 ![ALL](https://raw.githubusercontent.com/farshadjahanmanesh/iOSLoadingButtonView/master/loadingButton/examples/_properties.png)
 
 <video width="320" height="240" controls>
-  <source src="video.mov" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/farshadjahanmanesh/iOSLoadingButtonView/master/loadingButton/examples/video.mp4" type="video/mp4">
 </video
