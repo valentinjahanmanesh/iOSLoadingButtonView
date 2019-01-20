@@ -16,11 +16,12 @@ this is a small library to show loading and indicator in UIButton, colors are cu
 # ALL
 ![ALL](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__allInOneEx.gif)
 
-# installation
-you can use this library via CocoaPod 
+# installation cocoapods
+just add this line into your podfile
 ```swift
   pod 'loadingButtonOBJC'
 ```
+or simply copy the source into your project, take a look at example project for more info
 
 # Configs
 ```objective-c
