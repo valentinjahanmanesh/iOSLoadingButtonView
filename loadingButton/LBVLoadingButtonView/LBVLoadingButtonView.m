@@ -111,13 +111,7 @@
     }
     
     //indicates that loading is showing
-    __block CGFloat percent = 0;
     _isloadingShowing = true;
-//    _tempTimer = [NSTimer scheduledTimerWithTimeInterval:1 repeats:true block:^(NSTimer * _Nonnull timer) {
-//        percent += 10;
-//        [self fillTheCircleStrokeLoadingWith:percent];
-//        [self fillTheButtonWith:percent];
-//    }];
 }
 
 /**

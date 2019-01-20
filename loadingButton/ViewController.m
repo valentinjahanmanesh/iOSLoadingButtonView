@@ -9,11 +9,14 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+// create our outlets
 @property (weak, nonatomic) IBOutlet LBVLoadingButtonView *circleView;
 @property (weak, nonatomic) IBOutlet LBVLoadingButtonView *allInOneview;
 @property (weak, nonatomic) IBOutlet LBVLoadingButtonView *uberLikeView;
 @property (weak, nonatomic) IBOutlet LBVLoadingButtonView *fillingView;
 @property (weak, nonatomic) IBOutlet LBVLoadingButtonView *indicatorViewLike;
+
+// three timer only for changing the states of buttons for examples
 @property (readonly,copy) NSTimer *tempTimer1;
 @property (readonly,copy) NSTimer *tempTimer2;
 @property (readonly,copy) NSTimer *tempTimer;
@@ -25,6 +28,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    // start and stop animating on user touch
     [self.circleView addTarget:self action:@selector(animteView:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.allInOneview addTarget:self action:@selector(animteView:) forControlEvents:UIControlEventTouchUpInside];
@@ -37,9 +41,13 @@
 }
 - (IBAction)animteView:(id)sender {
     LBVLoadingButtonView *button = sender;
+    
+    // check for nil
     if(!button){
         return;
     }
+    
+    // start animating based on button animation style type
     [button startLoading:button.setAnimationType];
     __block CGFloat percent = 0;
     switch (button.animationType) {
