@@ -1,5 +1,5 @@
 # iOSLoadingButtonView
-this is a small library about showing loading and indicator in UIButton
+this is a small library to show loading and indicator in UIButton, colors are customizable
 
 # TOP_LINE
 ![TOP_LINE](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__uberLike.gif)
