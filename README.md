@@ -54,16 +54,16 @@ or simply copy the source into your project, take a look at example project for 
 [button endLoading];
 
 //update filling background 
-[self fillTheButtonWith:percent];
+[button fillTheButtonWith:percent];
 
 //update circle stroke in circle mode
-[self fillTheCircleStrokeLoadingWith:percent];
+[button fillTheCircleStrokeLoadingWith:percent];
 
 //(e.g)
 [NSTimer scheduledTimerWithTimeInterval:1 repeats:true block:^(NSTimer * _Nonnull timer) {
         percent += 10;
-       [self fillTheCircleStrokeLoadingWith:percent];
-       [self fillTheButtonWith:percent];
+       [button fillTheCircleStrokeLoadingWith:percent];
+       [button fillTheButtonWith:percent];
  }];
 ```
 
