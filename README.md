@@ -16,10 +16,14 @@ this is a small library about showing loading and indicator in UIButton
 # ALL
 ![ALL](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__allInOneEx.gif)
 
-
+# installation
+you can use this library via CocoaPod 
+```swift
+  pod 'loadingButtonOBJC'
+```
 
 # Configs
-```swift
+```objective-c
   //you can set these in interface builder or code
    
   // AnimationType in Interfacebuilder
@@ -47,6 +51,9 @@ this is a small library about showing loading and indicator in UIButton
 
 # start and stop loading, update percent
 ```objective-c
+// just import this
+#import "LBVLoadingButtonView.h"
+
 //start
 [button startLoading:BACKGROUND_HIGHLIGHTER];
 
@@ -67,4 +74,11 @@ this is a small library about showing loading and indicator in UIButton
  }];
 ```
 
+also you can use it as a class for your buttons in interface builder, and change those options from interface builder
+
+## set class
+![ALL](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/_setClass.png)
+
+## change attributes
+![ALL](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/_properties.png)
 
