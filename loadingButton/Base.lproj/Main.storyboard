@@ -36,7 +36,7 @@
                                                     <constraint firstAttribute="height" constant="50" id="F1P-kA-LRE"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                                <state key="normal" title="Please Wait">
+                                                <state key="normal" title="لطفا منتظر بمانید">
                                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -69,7 +69,7 @@
                                                     <constraint firstAttribute="height" constant="50" id="g0d-7h-Stc"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                                <state key="normal" title="Please Wait">
+                                                <state key="normal" title="لطفا منتظر بمانید">
                                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -102,7 +102,7 @@
                                                     <constraint firstAttribute="height" constant="50" id="k62-Rx-klF"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                                <state key="normal" title="Please Wait">
+                                                <state key="normal" title="لطفا منتظر بمانید">
                                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -145,7 +145,7 @@
                                                     <constraint firstAttribute="height" constant="50" id="yQY-Ql-BM2"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                                <state key="normal" title="Please Wait">
+                                                <state key="normal" title="لطفا منتظر بمانید">
                                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -184,7 +184,7 @@
                                                     <constraint firstAttribute="height" constant="50" id="agL-qh-ffk"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                                <state key="normal" title="Please Wait">
+                                                <state key="normal" title="لطفا منتظر بمانید">
                                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
