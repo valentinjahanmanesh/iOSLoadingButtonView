@@ -7,20 +7,6 @@ this is a small library to show loading and indicator in UIButton, colors are cu
 
 ![TOP_LINE](https://raw.githubusercontent.com/farshadjahanmanesh/iOSLoadingButtonView/master/loadingButton/examples/gif.gif)
 
-# TOP_LINE
-![TOP_LINE|small](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__uberLike.gif)
-
-# INDICATOR,
-![INDICATOR|small](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__indicatorViewEx.gif)
-
-# BACKGROUND_HIGHLIGHTER
-![BACKGROUND_HIGHLIGHTER|small](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__fillngEx.gif)
-
-# CIRCLE_AND_TICK
-![CIRCLE_AND_TICK|small](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__circleEx.gif)
-
-# ALL
-![ALL|small](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__allInOneEx.gif)
 
 # installation cocoapods
 just add this line into your podfile
