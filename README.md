@@ -1,20 +1,22 @@
 # iOSLoadingButtonView
 this is a small library to show loading and indicator in UIButton, colors are customizable
 
+![TOP_LINE](https://raw.githubusercontent.com/farshadjahanmanesh/iOSLoadingButtonView/master/loadingButton/examples/gif.gif)
+
 # TOP_LINE
-![TOP_LINE](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__uberLike.gif)
+![TOP_LINE|small](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__uberLike.gif)
 
 # INDICATOR,
-![INDICATOR](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__indicatorViewEx.gif)
+![INDICATOR|small](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__indicatorViewEx.gif)
 
 # BACKGROUND_HIGHLIGHTER
-![BACKGROUND_HIGHLIGHTER](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__fillngEx.gif)
+![BACKGROUND_HIGHLIGHTER|small](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__fillngEx.gif)
 
 # CIRCLE_AND_TICK
-![CIRCLE_AND_TICK](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__circleEx.gif)
+![CIRCLE_AND_TICK|small](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__circleEx.gif)
 
 # ALL
-![ALL](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__allInOneEx.gif)
+![ALL|small](https://cdn.rawgit.com/farshadjahanmanesh/iOSLoadingButtonView/0056f06b/loadingButton/examples/__allInOneEx.gif)
 
 # installation cocoapods
 just add this line into your podfile
@@ -82,4 +84,3 @@ also you can use it as a class for your buttons in interface builder, and change
 
 ## change attributes
 ![ALL](https://raw.githubusercontent.com/farshadjahanmanesh/iOSLoadingButtonView/master/loadingButton/examples/_properties.png)
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://raw.githubusercontent.com/farshadjahanmanesh/iOSLoadingButtonView/master/loadingButton/examples/video.mp4)
