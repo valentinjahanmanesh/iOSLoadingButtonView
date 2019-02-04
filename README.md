@@ -2,8 +2,11 @@
 this is a small library to show loading and indicator in UIButton, colors are customizable
 
 ## todo
-- [ ] animation style like appstore download button
-- [ ] make swift version
+- [x] animation style like appstore download button
+- [x] make swift version 
+
+## SWIFT VERSION
+swift version now is avialable [HERE](https://github.com/farshadjahanmanesh/loady)
 
 ![TOP_LINE](https://raw.githubusercontent.com/farshadjahanmanesh/iOSLoadingButtonView/master/loadingButton/examples/gif.gif)
 
